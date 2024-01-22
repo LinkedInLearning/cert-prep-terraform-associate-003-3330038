@@ -5,12 +5,14 @@ variable "bucket_name" {
   default     = "terraform-course-demo101"
 }
 
+
+
 # Tags variable
 variable "tags" {
   description = "A map of tags for the S3 bucket"
   type        = map(string)
   default     = {
     Name        = "terraform-course-demo101"
-    Environment = "Development"
+    Environment = "Dev"
   }
 }
