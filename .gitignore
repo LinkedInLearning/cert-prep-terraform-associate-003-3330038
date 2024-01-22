@@ -1,4 +1,32 @@
+# Terraform specific files and directories
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfplan
+
+# Ignore shell script files
+*.sh
+
+# Ignore PEM-encoded files (commonly private keys)
+*.pem
+
+# Ignore Terraform variable files
+*.tfvars
+
+# Ignore lock information files
+*.lock.info
+
+# Ignore Terraform logs
+*.log
+
+# Ignore Terraform temporary files
+*.tmp
+
+# Ignore macOS system files
 .DS_Store
-node_modules
-.tmp
-npm-debug.log
+
+# Ignore HashiCorp Configuration Language files
+*.hcl
+
+# Ignore specific file 'tf_sa_key'
+tf_sa_key
