@@ -50,8 +50,12 @@ Once you have these components installed, you'll need to set up your environment
 
 Use the AWS CLI to configure your AWS credentials. You can do this by running **aws configure** command in your terminal and providing your Access Key ID, Secret Access Key, region, and output format.
 
+#### Install Git CLI 
+Next, ensure you have Git CLI installed on your machine. If not, you can download and install it from https://git-scm.com/downloads
 
-#### Create a token and clone this repository:
+If you use Git Bash as your terminal, then no need installing Git Cli as it already has it
+
+#### Fork, Create a token, and clone this repository below:
 * https://github.com/LinkedInLearning/cert-prep-terraform-associate-003-3330038.git
 
 Note that you can Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
